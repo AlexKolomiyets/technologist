@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title>Главная</title>
+	<meta name='description' content="" />
+	<meta name="keywords" content="" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />	
+</head>
+<body class="loaded">
+
+							
+<!-- BEGIN BODY -->
+
+<div class="main-wrapper">
+
+<!-- BEGIN CONTENT -->
+
+	<main class="content">		
+		<div class="wrapper">
+			<h1 class="main-title">Анкета</h1>
+			<div class="my-information">
+				<div class="title" id="info">
+					<img src="img/icon1.png" alt="icon" class="title__icon">
+					<div class="title__value">Личная информация</div>
+				</div>
+			</div>
+			<div class="main-form">
+				<form action="./" method="post">
+					<div class="inputs">
+						<input type="text" name="fio" placeholder="ФИО">
+						<div class="select-container">
+							<select name="dateofbirth" class="js-select-styler">
+								<option value="0">Год рождения</option>
+								<option value="2000">2000</option>
+								<option value="2000">1999</option>
+								<option value="2000">1998</option>
+								<option value="2000">1997</option>
+								<option value="2000">1996</option>
+								<option value="2000">1995</option>
+								<option value="2000">1994</option>
+								<option value="2000">1993</option>
+								<option value="2000">1992</option>
+								<option value="2000">1991</option>
+							</select>
+						</div>
+						<input type="text" name="city" placeholder="Место проживания">
+						<input type="text" name="skype" placeholder="Skype">
+						<input type="email" name="email" placeholder="E-mail">
+					</div>
+					<div class="my-information">
+						<div class="title" id="experience">
+							<img src="img/icon2.png" alt="icon" class="title__icon">
+							<div class="title__value">Расскажите о своем опыте</div>
+						</div>
+					</div>
+					<div class="checkbox-list">
+						<div class="checkbox-element">
+							<label class="checkbox">
+								<input type="checkbox" class="style-checkbox">
+								<span class="custom-checkbox"></span>
+								<span class="checkbox-text">БЭМ/OOCSS</span>
+							</label>
+						</div>
+						<div class="checkbox-element">
+							<label class="checkbox">
+								<input type="checkbox" class="style-checkbox">
+								<span class="custom-checkbox"></span>
+								<span class="checkbox-text">Верстаю семантично</span>
+							</label>
+						</div>
+						<div class="checkbox-element">
+							<label class="checkbox">
+								<input type="checkbox" class="style-checkbox">
+								<span class="custom-checkbox"></span>
+								<span class="checkbox-text">Webpack</span>
+							</label>
+						</div>
+						<div class="checkbox-element">
+							<label class="checkbox">
+								<input type="checkbox" class="style-checkbox">
+								<span class="custom-checkbox"></span>
+								<span class="checkbox-text">Stylus/LESS/SASS</span>
+							</label>
+						</div>
+						<div class="checkbox-element">
+							<label class="checkbox">
+								<input type="checkbox" class="style-checkbox">
+								<span class="custom-checkbox"></span>
+								<span class="checkbox-text">ES2015/ES2016</span>
+							</label>
+						</div>
+						<div class="checkbox-element">
+							<label class="checkbox">
+								<input type="checkbox" class="style-checkbox">
+								<span class="custom-checkbox"></span>
+								<span class="checkbox-text">jQuery</span>
+							</label>
+						</div>
+						<div class="checkbox-element">
+							<label class="checkbox">
+								<input type="checkbox" class="style-checkbox">
+								<span class="custom-checkbox"></span>
+								<span class="checkbox-text">Работаю с SVG</span>
+							</label>
+						</div>
+						<div class="checkbox-element">
+							<label class="checkbox">
+								<input type="checkbox" class="style-checkbox">
+								<span class="custom-checkbox"></span>
+								<span class="checkbox-text">Gulp/GRUNT</span>
+							</label>
+						</div>
+						<div class="checkbox-element">
+							<label class="checkbox">
+								<input type="checkbox" class="style-checkbox">
+								<span class="custom-checkbox"></span>
+								<span class="checkbox-text">Ипользую Git</span>
+							</label>
+						</div>
+					</div>
+					<div class="my-information">
+						<div class="title" id="js">
+							<img src="img/icon3.png" alt="icon" class="title__icon">
+							<div class="title__value">Уровень владения JavaScript</div>
+						</div>
+					</div>
+					<div class="slider-wrap">
+						<div class="slidecontainer">
+							<div class="subtitles">
+								<div class="subtitles__cell1">Не владею</div>
+								<div class="subtitles__cell2">Использую готовые<br> решения</div>
+								<div class="subtitles__cell3">Использую готовые решения<br> и умею и переделывать</div>
+								<div class="subtitles__cell4">Пишу сложный JS с нуля</div>
+							</div>
+							<div class="triange-range-background-slider"></div>
+							<input type="range" min="1" max="100" value="50" class="slider" id="js-sliderRangeTwo">
+						</div>
+					</div>
+					<div class="my-information">
+						<div class="title mini" id="about">
+							<img src="img/icon4.png" alt="icon" class="title__icon">
+							<div class="title__value">Расскажите о себе</div>
+							<div class="title__note">Напишите несколько предложений, чем привлекла наша вакансияи что вы ожидаете от работы у нас.</div>
+						</div>
+					</div>
+					<div class="submit-block">
+						<textarea name="message" placeholder="Понравилась тем, что..."></textarea>
+						<input type="submit" value="Готово">
+					</div>
+				</form>
+			</div>
+		</div>		
+	</main>	
+			
+<!-- CONTENT EOF   -->
+
+<!-- BEGIN HEADER -->
+
+	<header>		
+		<div class="header__container">
+			<nav>
+				<ul class="menu" id="menu">
+					<li><a href="#info" class="menu__link">Личная информация</a></li>
+					<li><a href="#experience" class="menu__link">Опыт</a></li>
+					<li><a href="#js" class="menu__link">JavaScript</a></li>
+					<li><a href="#about" class="menu__link">О себе</a></li>
+				</ul>
+			</nav>
+			<div class="divide">
+				<span class="icon-divide"></span>
+			</div>
+		</div>		
+	</header>
+	
+<!-- HEADER EOF   -->
+
+<!-- BEGIN MOBILE -->
+
+<div class="mobile">
+	<div class="mobile__container">
+		<div class="close"><span class="icon-close"></span></div>
+		<ul class="navigation" id="navigation">
+			<li><a href="#info" class="navigation__link">Личная информация</a></li>
+			<li><a href="#experience" class="navigation__link">Опыт</a></li>
+			<li><a href="#js" class="navigation__link">JavaScript</a></li>
+			<li><a href="#about" class="navigation__link">О себе</a></li>
+		</ul>
+	</div>
+</div>
+	
+<!-- MOBILE EOF   -->
+
+</div>		
+
+<div class="icon-load"></div>		
+
+<!-- BODY EOF   -->
+	
+	<script src="js/jquery-3.0.0.min.js"></script>		
+	<script src="js/jquery-migrate-1.4.1.min.js" ></script>
+	<script src="js/components/jquery.formstyler.js" ></script>
+	<script src="js/components/jquery.range2dslider.js" ></script>
+	<!--
+	<script src="js/components/jquery.fancybox.js" ></script>
+	<script src="js/components/slick.js" ></script>
+	<script src="js/components/jquery.mCustomScrollbar.js" ></script>
+	-->
+	<script src="js/custom.js" ></script>
+</body>
+</html>
